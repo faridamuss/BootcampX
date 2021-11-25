@@ -4,7 +4,7 @@ const { Pool } = require('pg');
 const args = process.argv.slice(2);
 console.log(args)
 
-//connection to database with options
+//connection to database 
 const pool = new Pool({
   user: 'vagrant',
   password: '123',
